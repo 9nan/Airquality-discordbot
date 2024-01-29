@@ -1,4 +1,4 @@
-# Air Quality Monitoring System with Discord Notification
+# Air Quality Monitoring System with Discord Notification ( AirGuardian )
 
 ## Project Overview
 This project involves an air quality monitoring system that uses MQ-4 and MQ-7 gas sensors for detecting methane (CH4) and carbon monoxide (CO) levels, respectively. It includes an Arduino setup for sensor readings and a Discord bot for real-time notifications. The bot is developed using the `discord.js@v13` library and communicates with the Arduino through a serial connection.
