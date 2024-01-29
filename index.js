@@ -1,6 +1,5 @@
 /*a discord bot code on discord.js@v13 library */
 /*run "npm install" on command prompt*/
-
 const Discord = require('discord.js');
 const SerialPort = require('serialport');
 
@@ -11,9 +10,12 @@ const bot = new Discord.Client({
     ],
 });
 
-const TOKEN = 'MTEwOTQxODE0OTI1MTY2MTgyNQ.GtKpLz.lQYN2xQ9njOz4xC74Ais4_vZwqQaKJTkhY1sAg';
-const CHANNEL_ID = '1198479931743674522';
-const SERIAL_PORT = 'COM7';
+// Replace with your actual token
+const TOKEN = 'YOUR_DISCORD_BOT_TOKEN';
+// Replace with your actual channel ID
+const CHANNEL_ID = 'YOUR_CHANNEL_ID';
+// Replace with your actual serial port if needed
+const SERIAL_PORT = 'YOUR_SERIAL_PORT';
 
 let serialDataBuffer = '';
 bot.on('ready', () => {
